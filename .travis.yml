@@ -1,0 +1,13 @@
+sudo: false
+
+language: python
+
+cache: pip
+
+deploy:
+  provider: pypi
+  user: colinwren
+  password: $PYPI_PASSWORD
+  on:
+    tags: true
+    python: 2.7
