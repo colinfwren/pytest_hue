@@ -1,6 +1,8 @@
 # pytest-hue
 Control your Phillips Hue by PyTest. 
 
+![Demonstration of lights changing based on test results](images/pytest-hue.gif)
+
 The following parameters are used:
 
 - Brightness is controlled by the number of run tests against total number of tests
